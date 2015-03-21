@@ -26,27 +26,27 @@
       
       <script type="text/javascript">
 
-        today = new Date();
+today = new Date();
 
-       BigDay = new Date("May 1, 2015");
+BigDay = new Date("May 1st, 2015");
 
-        msPerDay = 24 * 60 * 60 * 1000 ;
+msPerDay = 24 * 60 * 60 * 1000 ;
 
-       timeLeft = (BigDay.getTime() - today.getTime());
+timeLeft = (BigDay.getTime() - today.getTime());
 
-       e_daysLeft = timeLeft / msPerDay;
+e_daysLeft = timeLeft / msPerDay;
 
-       daysLeft = Math.floor(e_daysLeft);
+daysLeft = Math.floor(e_daysLeft);
 
-       e_hrsLeft = (e_daysLeft - daysLeft)*24;
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
 
-       hrsLeft = Math.floor(e_hrsLeft);
+hrsLeft = Math.floor(e_hrsLeft);
 
-       minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
 
-       document.write(There are <BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until May 1st 2015<P>");
+document.write("There are <BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until May 1st 2015<P>");
 
-      </script>
+</script>
       
     </h2>
       <img src="https://programminghq.files.wordpress.com/2013/05/binary-code-big.jpg" alt = "Code Pic" style= "width:304px;height228px" align= "middle"> </img>
